@@ -8,6 +8,8 @@ drop database testing123;
 
 show databases;
 
+drop database if exists testing123;
+
 create database codeup_test_db;
 
 CREATE USER 'codeup_test_user'@'localhost' IDENTIFIED BY '12345';
