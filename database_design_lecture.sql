@@ -120,3 +120,4 @@ INSERT INTO quotes_topics (quote_id, topic_id) VALUES
    (20, 7), (20, 11);
 
 select content, topic from quotes q join quotes_topics qt on q.id = qt.quote_id join topics t on t.id = qt.topic_id order by content;
+
